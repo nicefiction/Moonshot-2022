@@ -8,11 +8,19 @@ struct ContentView: View {
     
     // MARK: - PROPERTY WRAPPERS
     // MARK: - PROPERTIES
+    let fixedColumnLayout = [
+        GridItem(.fixed(80)),
+        GridItem(.fixed(80)),
+        GridItem(.fixed(80))
+    ]
     // MARK: - INITIALIZERS
     // MARK: - COMPUTED PROPERTIES
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        LazyVGrid(columns: fixedColumnLayout) {
+            ForEach(0..<1_000) {
+                Text("Item \($0)")
+            }
+        }
     }
     
     

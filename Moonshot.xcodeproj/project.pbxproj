@@ -13,6 +13,7 @@
 		C57614A92808036F00E2153E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57614A82808036F00E2153E /* Preview Assets.xcassets */; };
 		C57614B12808115C00E2153E /* ResizingImagesUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57614B02808115C00E2153E /* ResizingImagesUsingGeometryReader.swift */; };
 		C57614B32808216500E2153E /* ScrollingDataWithScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57614B22808216500E2153E /* ScrollingDataWithScrollView.swift */; };
+		C57614B5280828DB00E2153E /* UsingNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57614B4280828DB00E2153E /* UsingNavigationLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C57614A82808036F00E2153E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C57614B02808115C00E2153E /* ResizingImagesUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingImagesUsingGeometryReader.swift; sourceTree = "<group>"; };
 		C57614B22808216500E2153E /* ScrollingDataWithScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingDataWithScrollView.swift; sourceTree = "<group>"; };
+		C57614B4280828DB00E2153E /* UsingNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNavigationLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				C57614B02808115C00E2153E /* ResizingImagesUsingGeometryReader.swift */,
 				C57614B22808216500E2153E /* ScrollingDataWithScrollView.swift */,
+				C57614B4280828DB00E2153E /* UsingNavigationLink.swift */,
 			);
 			path = "Day 39";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57614B5280828DB00E2153E /* UsingNavigationLink.swift in Sources */,
 				C57614A42808036E00E2153E /* ContentView.swift in Sources */,
 				C57614A22808036E00E2153E /* MoonshotApp.swift in Sources */,
 				C57614B12808115C00E2153E /* ResizingImagesUsingGeometryReader.swift in Sources */,

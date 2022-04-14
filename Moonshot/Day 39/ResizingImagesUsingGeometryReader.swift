@@ -14,7 +14,11 @@ struct ResizingImagesUsingGeometryReader: View {
     var body: some View {
         
         Image("cherryblossom-unsplash")
+        /// If you want the image contents to be resized too,
+        /// we need to use the `resizable()` modifier like this:
             .resizable()
+        /// Note how it squashes the image. To fix this
+        /// we need to ask the image to resize itself proportionally:
             .scaledToFit()
         
         Image("cherryblossom-unsplash")

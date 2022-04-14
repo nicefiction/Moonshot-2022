@@ -11,6 +11,7 @@
 		C57614A42808036E00E2153E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57614A32808036E00E2153E /* ContentView.swift */; };
 		C57614A62808036F00E2153E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57614A52808036F00E2153E /* Assets.xcassets */; };
 		C57614A92808036F00E2153E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57614A82808036F00E2153E /* Preview Assets.xcassets */; };
+		C57614B12808115C00E2153E /* ResizingImagesUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57614B02808115C00E2153E /* ResizingImagesUsingGeometryReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C57614A32808036E00E2153E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C57614A52808036F00E2153E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C57614A82808036F00E2153E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C57614B02808115C00E2153E /* ResizingImagesUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizingImagesUsingGeometryReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		C57614A02808036E00E2153E /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
+				C57614AF280808E400E2153E /* Day 39 */,
 				C57614A12808036E00E2153E /* MoonshotApp.swift */,
 				C57614A32808036E00E2153E /* ContentView.swift */,
 				C57614A52808036F00E2153E /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				C57614A82808036F00E2153E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C57614AF280808E400E2153E /* Day 39 */ = {
+			isa = PBXGroup;
+			children = (
+				C57614B02808115C00E2153E /* ResizingImagesUsingGeometryReader.swift */,
+			);
+			path = "Day 39";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				C57614A42808036E00E2153E /* ContentView.swift in Sources */,
 				C57614A22808036E00E2153E /* MoonshotApp.swift in Sources */,
+				C57614B12808115C00E2153E /* ResizingImagesUsingGeometryReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

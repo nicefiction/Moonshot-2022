@@ -12,7 +12,7 @@ struct MoonshotApp: App {
     var body: some Scene {
         WindowGroup {
             // ContentView()
-            UsingNavigationLink()
+            HierarchicalCodableData()
         }
     }
 }

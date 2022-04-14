@@ -48,7 +48,45 @@ struct UsingNavigationLink: View {
             }
             .navigationTitle("Option 3")
         }
+        
+        NavigationView {
+            List {
+                ForEach(1..<99) { (eachNumber: Int) in
+                    NavigationLink {
+                        Text("Row \(eachNumber)")
+                    } label: {
+                        Text("Detail view \(eachNumber)")
+                    }
+                }
+            }
+            .navigationTitle("Option 3")
+        }
+        
+        NavigationView {
+            List {
+                ForEach(1..<10) { (eachNumber: Int) in
+                    NavigationLink(destination: {
+                        Text("Destination \(eachNumber)")
+                    }, label: {
+                        Text("Label \(eachNumber)")
+                    })
+                }
+            }
+            .navigationTitle("Option 4")
+        }
+        
+        NavigationView {
+            List(1..<10) { (eachNumber: Int) in
+                NavigationLink {
+                    Text("Destination \(eachNumber)")
+                } label: {
+                    Text("Label \(eachNumber)")
+                }
+            }
+            .navigationTitle("Option 4")
+        }
     }
+    
     
     
     

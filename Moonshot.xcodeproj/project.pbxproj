@@ -25,6 +25,7 @@
 		C57614B72808545C00E2153E /* HierarchicalCodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57614B62808545C00E2153E /* HierarchicalCodableData.swift */; };
 		C57614B92808603E00E2153E /* ScrollingGrids.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57614B82808603E00E2153E /* ScrollingGrids.swift */; };
 		C5EF2DE72809E8F300CD7F40 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EF2DE62809E8F300CD7F40 /* Color-Theme.swift */; };
+		C5EF2DE92809F43300CD7F40 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EF2DE82809F43300CD7F40 /* MissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		C57614B62808545C00E2153E /* HierarchicalCodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalCodableData.swift; sourceTree = "<group>"; };
 		C57614B82808603E00E2153E /* ScrollingGrids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingGrids.swift; sourceTree = "<group>"; };
 		C5EF2DE62809E8F300CD7F40 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		C5EF2DE82809F43300CD7F40 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				C5173D542809A528009E4EB2 /* Mission.swift */,
 				C5173D4B2808B698009E4EB2 /* Bundle-Decodable.swift */,
 				C5EF2DE62809E8F300CD7F40 /* Color-Theme.swift */,
+				C5EF2DE82809F43300CD7F40 /* MissionView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				C5173D4F28095660009E4EB2 /* ArchivingWithEncodable.swift in Sources */,
 				C57614B32808216500E2153E /* ScrollingDataWithScrollView.swift in Sources */,
 				C5173D53280965C6009E4EB2 /* WritingAndSavingWithCodable.swift in Sources */,
+				C5EF2DE92809F43300CD7F40 /* MissionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,21 +1,28 @@
-//
-//  MoonshotApp.swift
-//  Moonshot
-//
-//  Created by Olivier Van hamme on 14/04/2022.
-//
-
 import SwiftUI
+
+
 
 @main
 struct MoonshotApp: App {
+    
+    // MARK: - PROPERTY WRAPPERS
+    // MARK: - PROPERTIES
+    // MARK: - INITIALIZERS
+    // MARK: - COMPUTED PROPERTIES
     var body: some Scene {
+        
         WindowGroup {
-            // ContentView()
-            ScrollingGrids()
+            ContentView()
         }
     }
+    
+    
+    
+    // MARK: - METHODS
+    // MARK: - HELPER METHODS
 }
+
+
 
 
 

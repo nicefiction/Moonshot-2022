@@ -20,7 +20,7 @@ struct Mission: Codable,
     // MARK: - PROPERTY WRAPPERS
     // MARK: - PROPERTIES
     let id: Int
-    let launchDate: String?
+    let launchDate: Date?
     let crew: Array<CrewRole>
     let description: String
     
@@ -28,6 +28,16 @@ struct Mission: Codable,
     
     // MARK: - INITIALIZERS
     // MARK: - COMPUTED PROPERTIES
+    var imageName: String { return "apollo\(id)" }
+    var displayName: String { return "Apollo \(id)" }
+    var formattedLaunchDate: String {
+        
+        return launchDate?.formatted(date: .abbreviated,
+                                     time: .omitted) ?? "N/A"
+    }
+    
+    
+    
     // MARK: - METHODS
     // MARK: - HELPER METHODS
 }

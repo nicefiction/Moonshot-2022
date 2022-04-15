@@ -33,11 +33,20 @@ extension Bundle {
         
         
         let jsonDecoder = JSONDecoder.init()
+        /// This tells the `jsonDecoder` to parse dates in the exact format we expect:
+        let dateFormatter = DateFormatter.init()
+        dateFormatter.dateFormat = "y-MM-dd"
+        /// Swift’s `JSONDecoder` type has a property called `dateDecodingStrategy`,
+        /// which determines how it should decode dates.
+        /// We can provide that with a `DateFormatter` instance that describes how our dates are formatted.
+        jsonDecoder.dateDecodingStrategy = .formatted(dateFormatter)
         
         guard
             // let _decodedData = try? jsonDecoder.decode(Dictionary<String, Astronaut>.self,from: _loadedData)
-            let _decodedData = try? jsonDecoder.decode(T.self,from: _loadedData)
+            let _decodedData = try? jsonDecoder.decode(T.self,
+                                                       from: _loadedData)
         else { fatalError("Failed to decode \(file) from bundle.") }
+        
         
         
         return _decodedData

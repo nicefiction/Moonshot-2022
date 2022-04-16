@@ -15,6 +15,7 @@
 		C5173D5128095981009E4EB2 /* StoringUserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5173D5028095981009E4EB2 /* StoringUserSettings.swift */; };
 		C5173D53280965C6009E4EB2 /* WritingAndSavingWithCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5173D52280965C6009E4EB2 /* WritingAndSavingWithCodable.swift */; };
 		C5173D552809A528009E4EB2 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5173D542809A528009E4EB2 /* Mission.swift */; };
+		C5758784280B2039006D61B7 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5758783280B2039006D61B7 /* AstronautView.swift */; };
 		C57614A22808036E00E2153E /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57614A12808036E00E2153E /* MoonshotApp.swift */; };
 		C57614A42808036E00E2153E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57614A32808036E00E2153E /* ContentView.swift */; };
 		C57614A62808036F00E2153E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57614A52808036F00E2153E /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		C5173D52280965C6009E4EB2 /* WritingAndSavingWithCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingAndSavingWithCodable.swift; sourceTree = "<group>"; };
 		C5173D542809A528009E4EB2 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		C5758782280AA60A006D61B7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C5758783280B2039006D61B7 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		C576149E2808036E00E2153E /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57614A12808036E00E2153E /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		C57614A32808036E00E2153E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				C5173D4B2808B698009E4EB2 /* Bundle-Decodable.swift */,
 				C5EF2DE62809E8F300CD7F40 /* Color-Theme.swift */,
 				C5EF2DE82809F43300CD7F40 /* MissionView.swift */,
+				C5758783280B2039006D61B7 /* AstronautView.swift */,
 				C5758782280AA60A006D61B7 /* MyPlayground.playground */,
 			);
 			path = Moonshot;
@@ -212,6 +215,7 @@
 				C57614B92808603E00E2153E /* ScrollingGrids.swift in Sources */,
 				C5173D552809A528009E4EB2 /* Mission.swift in Sources */,
 				C5EF2DE72809E8F300CD7F40 /* Color-Theme.swift in Sources */,
+				C5758784280B2039006D61B7 /* AstronautView.swift in Sources */,
 				C5173D5128095981009E4EB2 /* StoringUserSettings.swift in Sources */,
 				C5173D4F28095660009E4EB2 /* ArchivingWithEncodable.swift in Sources */,
 				C57614B32808216500E2153E /* ScrollingDataWithScrollView.swift in Sources */,

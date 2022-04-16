@@ -9,7 +9,8 @@ struct Mission: Codable,
                 Identifiable {
     
     // MARK: - NESTED TYPES
-    struct CrewRole: Codable {
+    struct CrewRole: Codable,
+                     Equatable {
         
         let name: String
         let role: String
